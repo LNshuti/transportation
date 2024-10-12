@@ -1,11 +1,11 @@
-# U.S. Energy Equities Market Technical Indicator Visualization 
+# U.S. Transportation Equities Market Technical Indicator Visualization 
 
-This Python [application](https://huggingface.co/spaces/LeonceNsh/energy) allows users to visualize stock data and technical indicators **(SMA, MACD, RSI, Bollinger Bands)** for selected companies. The app fetches historical stock data using Yahoo Finance, computes various technical indicators, and displays the plots interactively through a Gradio interface.
+This Python [application](https://huggingface.co/spaces/LeonceNsh/transportation) allows users to visualize stock data and technical indicators **(SMA, MACD, RSI, Bollinger Bands)** for selected companies. The app fetches historical stock data using Yahoo Finance, computes various technical indicators, and displays the plots interactively through a Gradio interface.
 
 This tool provides an intuitive way for business users and analysts to quickly visualize key technical indicators without needing deep expertise in coding or data processing, making stock analysis more accessible and engaging.
 
 
-**Exhibit 1. Hess Corporation -- Simple Moving Average**
+**Exhibit 1. XPO Logistics -- Simple Moving Average**
 
 ![image](https://github.com/user-attachments/assets/d07415f3-59c2-4915-b59a-9b8b08ea7339)
 
@@ -14,7 +14,7 @@ This tool provides an intuitive way for business users and analysts to quickly v
 ### Clone this Repository
 
 ```bash
-git clone https://github.com/LNshuti/energy.git
+git clone https://github.com/LNshuti/transportation.git
 ```
 
 ### Setup your Environment
@@ -24,7 +24,7 @@ conda env create --file=environment.yaml
 
 ### Activate your Environment
 ```bash
-conda activate stock-data
+conda activate logistics
 ```
 
 ### Install Dependencies
